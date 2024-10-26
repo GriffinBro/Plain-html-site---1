@@ -5,18 +5,27 @@
 
 body {
     margin-top: 0;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #main-header {
     font-family:'Trebuchet MS';
     font-weight: 800;
-    color: rgb(250, 0, 0);
+    color: yellow;
 }
 
 .header-2 {
-    color: blue;
+    color: greenyellow;
     font-style: italic;
     font-size: x-large;
+}
+
+.header-4 {
+    color: greenyellow;
+    font-style: italic;
 }
 
 #Neuroscience-img {
@@ -28,4 +37,20 @@ body {
     width: 500px;
     border-radius: 50px;
     padding-left: 30%;
+}
+
+p {
+    color: white;
+}
+
+ul li {
+    color: white;
+}
+
+ol li {
+    color: aliceblue;
+}
+
+td, th {
+    color: white;
 }
